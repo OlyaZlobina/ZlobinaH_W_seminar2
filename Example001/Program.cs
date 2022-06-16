@@ -45,7 +45,7 @@
 // }
 // Weekends();
 
-// 4. Доп. задача. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+// 1. Доп. задача. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
 
 // Console.WriteLine(" Input number: ");
 // int num = Convert.ToInt32(Console.ReadLine());
@@ -62,4 +62,20 @@
 // Multiple();
 
 
+// 2. Доп. задача. Напишите программу, которая принимает на вход два числа и проверяет, является ли одно число квадратом другого.
+
+// Console.WriteLine("Input first number: ");
+// int num1 = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Input second number: ");
+// int num2 = Convert.ToInt32(Console.ReadLine());
+// void SquareNum(){
+//     int result = num1 * num1;
+//     if(num2 == result){
+//         Console.WriteLine("The second number is the square of the first number ");
+//     }
+//     else{
+//         Console.WriteLine("The second number is not the square of the first number");
+//     }
+// }
+// SquareNum();
 
