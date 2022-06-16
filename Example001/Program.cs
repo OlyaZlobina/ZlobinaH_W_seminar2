@@ -45,5 +45,21 @@
 // }
 // Weekends();
 
+// 4. Доп. задача. Напишите программу, которая принимает на вход число и проверяет, кратно ли оно одновременно 7 и 23.
+
+// Console.WriteLine(" Input number: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// void Multiple(){
+//     if (num / 7 == 0 && num / 23 == 0)
+//     {
+//         Console.WriteLine(" The number is a multiple of 7 and 23 ");
+//     }
+//     else
+//     {
+//         Console.WriteLine(" The number is not a multiple of 7 and 23 ");
+//     }
+// }
+// Multiple();
+
 
 
