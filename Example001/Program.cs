@@ -11,6 +11,18 @@
 
 // 2. Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
+Console.WriteLine(" Input number: ");
+int num = Convert.ToInt32(Console.ReadLine());
+void ThirdNum(){  
+    if(num > 99 && num < 999){
+        int third = num / 10 %10;
+        Console.WriteLine(num + " -> ", third);
+    }
+    else{
+        
+    }
+}
+
 //3. Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
 
 // Console.WriteLine(" Input number: ");
